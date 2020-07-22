@@ -19,6 +19,8 @@
   * [Essential Libraries](#essential-libraries)
   * [Cloud services](#cloud-services)
  * [Models vs. Algorithms](#models-vs-algorithms)
+ * [Regression Problems vs Classification Problems](#regression-problems-vs-classification-problems)
+
 
 ## Intro to Machine Learning
 
@@ -325,3 +327,14 @@ For example, `y=Mx+C` is an algorithm used to predict the output`y` form an inpu
 > **Machine Learning models** represents what is learned by algorithm from the data. It is also the set of weights or co-efficients learned from an input data using an algorithm.
 
 In the above example the model will be the values of `M` and `C` which are learned from a training data set using the algorithm 'y = Mx+C'
+
+## Regression Problems vs Classification Problems
+
+> In a **classification** problem, the outputs are categorical or discrete. Main algorithms: SVM and logistic regression
+- Binary classification (e.g. detect fraud)
+- Multi-Class Single-Label (e.g. reading numbers)
+- Multi-Class Multi-Label (e.g. classification between dogs/horces/cats and its breeds)
+
+> In a **regression problem**, the output is numerical or continuous. Main algorithms: Linear regression and Decision Forest
+- Regression to arbitrary values (e.g. price)
+- Regression to values between 0 and 1 (e.g. probability)
